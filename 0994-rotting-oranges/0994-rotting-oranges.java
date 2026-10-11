@@ -42,7 +42,7 @@ class Solution {
             minutes++;
             
         }
-        if(fresh > 0) return -1;
+        if(fresh > 0) return -1;// if an unreachable orange is left
         return minutes;
 
     }
